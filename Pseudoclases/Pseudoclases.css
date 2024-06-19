@@ -39,16 +39,28 @@ h2.linea {
   z-index: 1;
 }
 
-.card_title::after,.card_title::before{
-  content: ' ';
-  display: block;
+.card_title::after, .card_title::before{
+  content: '  ';
+  display: inline-block;
   width: 100%;
   height: 2px;
   padding: 2px;
+  margin-bottom: 5px;
+  border-radius: 5px;
   background-color: salmon;
-  z-index: -1;
 }
 
+.card_title::after{
+  width: 15%;
+  left: 0;
+  top: 0;
+}
+
+.card_title::before{
+  width: 15%;
+  left: 0;
+  top: 0;
+}
 
 
 p{
