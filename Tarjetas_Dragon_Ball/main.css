@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo img{
+    margin:10px;
+    width: 1100px;
+    
+}
+
+body{
+    background: url(imagenes/espacio.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+:root{
+  --color1:red;
+  --border-radius:40px;
+  --Black:black;
+  --Red:drop-shadow(0px 0px 12px red);
+  --Naranja:rgb(255, 153, 20);
+  --font-size-P:20px;
+  --font-size-h3:30px;
+  --Box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+  --border:solid 4px #ffa412;
+}
+
+
+main{
+  background: url(imagenes/fondooo.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 80px;
+  padding: 20px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.card{
+  width: 320px;
+  background-color: #3498DB;
+  opacity: 92%;
+  overflow: hidden;
+  box-shadow: var(--Box-shadow);
+  transition: all 400ms ease;
+  padding: 22px;
+  margin: 10px;
+  border: var(--border);
+  display: inline-block;
+  vertical-align: 100px;
+  border-radius: var(--border-radius);
+  cursor: default;
+}
+
+.card:hover {
+    box-shadow: var(--Box-shadow);
+    transform: translateY(-3%);
+}
+
+
+.card img {
+  display: block;
+  max-height: 280px;
+  margin: 0 auto;
+  filter: drop-shadow(2px 0px 4px #515151);
+}
+
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: var(--Black);
+    font-size: var(--font-sizeP);
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: var(--Naranja);
+    font-size:var(--font-size-h3);
+}
+
+
+
+
