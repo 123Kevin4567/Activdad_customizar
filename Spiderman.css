@@ -14,80 +14,83 @@ img{
 
 
 :root{
-  --color1:red;
   --white: #f1f1f1;
   --border-radius:20px;
-  --Red:drop-shadow(0px 0px 12px red);
-  --Yellow:drop-shadow(0px 0px 12px yellow);
+  --Yellow:rgb(255, 255, 0);
   --Box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+  --Red:rgb(239, 57, 57);
+  --width: 100%;
+  --height: 100%;
+  --Background-color: rgb(2, 9, 14);
+  --line-height: 50px;
+  --Black: black;
 }
 
 ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 0 auto;
-  }
+  display: inline-block;
+  list-style: none;
+  margin: 0 auto;
+}
+
+
+.nav{
+  width: var(--width);
+  height: var(--height);
+}
+
+.titulo {
+ text-align: center;
+ font-size: 60px;
+}
+
+ul{
+  width: var(--width);
+  text-align: center;
+  line-height: var(--line-height);
   
+}
+
+li{
+  padding-left: 30px;
+}
+
+
+a{
+  text-decoration: none;
+  color:var(--Red);
+  font-size: 20px;
+
+} 
+
+.Formulario{
+  height: var(--height);
+  width: var(--width);
   
-  .nav{
-    width: 100%;
-    height: 100%;
-  }
+}
+
+.Gradiant{
+  height: var(--height);
+  width: var(--width);
   
-  .titulo {
-   text-align: center;
-   font-size: 60px;
-  }
+}
+
+.Pseudoclases{
+  height: var(--height);
+  width: var(--width);
   
-  ul{
-    width: 100%;
-    text-align: center;
-    line-height: 50px;
-    
-  }
+}
+
+.Tarjetas{
+  height: var(--height);
+  width: var(--width);
   
-  li{
-    padding-left: 30px;
-  }
+}
+
+.Cartas{
+  height: var(--height);
+  width: var(--width);
   
-  
-  a{
-    
-    text-decoration: none;
-    color: rgb(239, 57, 57);
-    font-size: 20px;
-  
-  } 
-  
-  .Formulario{
-    height: 20px;
-    width: 20px;
-    
-  }
-  
-  .Gradiant{
-    height: 20px;
-    width: 20px;
-    
-  }
-  
-  .Pseudoclases{
-    height: 20px;
-    width: 20px;
-    
-  }
-  
-  .Tarjetas{
-    height: 20px;
-    width: 20px;
-    
-  }
-  
-  .Cartas{
-    height: 20px;
-    width: 20px;
-    
-  }
+}
 
 .titulo {
    text-align: center;
@@ -121,14 +124,14 @@ ul li{
 
 .card .contenido{
     line-height: 1.5;
-    color: black;
+    color: var(--Black);
     font-size: 20px;
 }
 
 .card .contenido h3{
     font-weight: 400;
     margin-bottom: 15px;
-    color: var(--color1);
+    color: var(--Red);
     font-size: 30px;
 }
 
@@ -137,14 +140,14 @@ ul li{
     display: inline-block;
     padding: 10px;
     margin-top: 10px;
-    color: var(--color1);
-    border: 1px solid var(--color1);
+    color: var(--Red);
+    border: 1px solid var(--Red);
     border-radius: 4px;
     transition: all 400ms ease;
 }
 
 .card .contenido a:hover {
-    background:var(--color1);
+    background:var(--Red);
     color:var(--white);
 }
 
