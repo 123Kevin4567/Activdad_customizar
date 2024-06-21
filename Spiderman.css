@@ -24,6 +24,8 @@ img{
   --Background-color: rgb(2, 9, 14);
   --line-height: 50px;
   --Black: black;
+  --Gokuimg:drop-shadow(0px 0px 12px yellow);
+  --Spidyimg: drop-shadow(0px 0px 12px red);
 }
 
 ul li{
@@ -160,12 +162,12 @@ a{
 
 
 .Goku img{
-  filter: var(--Yellow);
+  filter: var(--Gokuimg);
 }
 
 
 .spidy img{
-    filter: var(--Red);
+    filter: var(--Spidyimg);
 
 }
 
